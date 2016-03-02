@@ -1,11 +1,11 @@
 # Sorting-Algorithms-Analysis
 
-Sorting Algorithms:
-1. Insertion Sort
-2. Merge Sort
-3. Quick Sort
-4. Heap Sort
-5. Radix Sort
-6. Counting Sort
-7. Selection Sort
+#Sorting Algorithms:\n
+1. Insertion Sort\n
+2. Merge Sort\n
+3. Quick Sort\n
+4. Heap Sort\n
+5. Radix Sort\n
+6. Counting Sort\n
+7. Selection Sort\n
 8. Bucket Sort
