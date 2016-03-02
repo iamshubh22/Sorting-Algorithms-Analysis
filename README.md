@@ -1,6 +1,7 @@
 # Sorting-Algorithms-Analysis
 
 Sorting Algorithms which were implemented in this project are:
+#
 1. Insertion Sort
 2. Merge Sort
 3. Quick Sort
