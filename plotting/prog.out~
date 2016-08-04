@@ -1,0 +1,22 @@
+I1         10               9               1 0.000 increasing list
+I1         10               9               1 0.000 increasing list
+I1         10               9               1 0.000 increasing list
+I1         50              49               1 0.000 increasing list
+I1         50              49               1 0.000 increasing list
+I1         50              49               1 0.000 increasing list
+I1        100              99               1 0.000 increasing list
+I1        100              99               1 0.000 increasing list
+I1        100              99               1 0.000 increasing list
+I1        500             499               5 0.000 increasing list
+I1        500             499               4 0.000 increasing list
+I1        500             499               3 0.000 increasing list
+I1       1000             999               9 0.000 increasing list
+I1       1000             999               6 0.000 increasing list
+I1       1000             999               6 0.000 increasing list
+I1       5000            4999              27 0.000 increasing list
+I1       5000            4999              27 0.000 increasing list
+I1       5000            4999              27 0.000 increasing list
+I1      10000            9999              54 0.000 increasing list
+I1      50000           49999             287 0.000 increasing list
+I1     100000           99999             541 0.001 increasing list
+

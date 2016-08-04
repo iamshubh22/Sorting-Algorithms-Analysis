@@ -1,0 +1,21 @@
+#!/usr/bin/gnuplot
+# The above line is required. Dont remove it unless you know what you are doing
+
+set term post eps font 'Helvatica,15'
+set ylabel 'Clock_ticks'
+set xlabel 'Input size(n)'
+#set logscale y   # As you can guess.. # begins a comment
+set autoscale y
+set style data linespoints 
+set output 'compare.eps'           # The output file is produced as rtt.eps You should have appropriate application to open .eps files
+
+# Invest some time in understanding how is it plotting the curves. You will have to look at the files too. 
+plot  "prog1.out" using 2:4 lt -1 pi -2 pt 1 title 'Bucket_Sort' \
+,  "prog2.out" using 2:4 lt -1 pi -2 pt 2 title 'Heap_Sort' \
+,  "prog3.out" using 2:4 lt -1 pi -2 pt 3 title 'Insertion_Sort' \
+,  "prog4.out" using 2:4 lt -1 pi -2 pt 4 title 'Merge_Sort' \
+,  "prog5.out" using 2:4 lt -1 pi -2 pt 5 title 'Quick2_Sort' \
+,  "prog6.out" using 2:4 lt -1 pi -2 pt 6 title 'Radix_Sort' \
+,  "prog7.out" using 2:4 lt -1 pi -2 pt 7 title 'Selection_Sort' \
+
+# If you are interested in learning how to write gnuplot scripts and want your plots to look more fancy. Learnt it! It is a really easy, amazing and powerful tool to plot.
